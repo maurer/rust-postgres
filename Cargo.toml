@@ -1,6 +1,6 @@
 [package]
 name = "postgres"
-version = "0.5.3"
+version = "0.5.4"
 authors = ["Steven Fackler <sfackler@gmail.com>"]
 license = "MIT"
 description = "A native PostgreSQL driver"
@@ -25,10 +25,11 @@ default = ["uuid"]
 [dependencies]
 phf = "0.6"
 phf_macros = "0.6"
-openssl = "0.2.16"
+openssl = "0.3.0"
 time = "0.1.14"
 log = "0.2"
 rustc-serialize = "0.2"
+byteorder = "0.2"
 
 [dependencies.uuid]
 optional = true
